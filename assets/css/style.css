@@ -4,46 +4,59 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: "Fredoka", Helvetica, sans-serif;
 }
 
-h1{
+h1 {
     color: #e53170;
     margin: 50px;
     font-size: 50px;
 }
 
-a{
+a {
     text-decoration: none;
     color: rgb(0, 174, 255);
 }
 
-.subtitle{
-    margin: 50px;
+.card p,
+.card h4 {
+    text-align: left;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 5px;
 }
+
+.subtitle {
+    margin: 50px;
+    text-align: center;
+}
+
 /* CLEARFIX */
 
-.clearfix::after{
+.clearfix::after {
     content: "";
     display: block;
     clear: both;
 }
+
 /* UTILITY */
 
-.container, #app-header{
+.container,
+#app-header {
     max-width: 1170px;
     margin: auto;
     text-align: center;
 }
 
-.card img{
+.card img {
     height: 100px;
     width: 100px;
     float: left;
+    margin-right: 10px;
 }
 
-.card{
+.card {
     float: left;
     text-align: left;
     width: calc(90% / 3);
