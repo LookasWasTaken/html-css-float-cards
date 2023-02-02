@@ -19,7 +19,7 @@ a{
     color: rgb(0, 174, 255);
 }
 
-p{
+.subtitle{
     margin: 50px;
 }
 /* CLEARFIX */
@@ -40,6 +40,7 @@ p{
 .card img{
     height: 100px;
     width: 100px;
+    float: left;
 }
 
 .card{
